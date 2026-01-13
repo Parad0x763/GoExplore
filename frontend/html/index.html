@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 
-
 <html>
 
-
     <head>
-        <link rel="stylesheet"
+        <link rel="stylesheet" src="../css/main.css" />
+        <script type="text/javascript" src="../dist/index.js"></script>
     </head>
-
 
     <title>Home</title>
 
-
     <body>
-        <div class="container"></div>
-    </body>
-
+        <div class="container">
+            <h1>MUSIC</h1>
+            <button id="clickBtn">CLICK</button>
+        </div>
+        
+        <script type="module">
+            import { printUser } from "../dist/index.js";
+            
+            document.addEventListener("DOMContentLoaded", () => {
+                document.getElementById("clickBtn").addEventListener("click", onClick)
+            });
+            
+            function onClick() {
+                const user = {
+                    userName: "UserName",
+                    email: "email@gmail.com",
+                };
+                printUser(user);
+            }
+        </script>
+    </body>    
 
 </html>
