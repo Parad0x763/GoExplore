@@ -1,0 +1,5 @@
+**/bin
+**/node_modules
+**/target
+**/obj
+**/appsettings.Development.json
