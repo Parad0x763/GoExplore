@@ -17,6 +17,10 @@
 - `dotnet package add Swashbuckle.AspNetCore.SwaggerGen`
 - `dotnet package add Swashbuckle.AspNetCore`
 
+#### JSON Configuration Provider
+
+- [JSON-Config-Provider](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers#:~:text=JSON%20configuration%20provider,-The)
+
 ### backend.testing
 
 - `cd backend.testing`
